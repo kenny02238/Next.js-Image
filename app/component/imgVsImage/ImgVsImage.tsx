@@ -8,9 +8,9 @@ const ImgVsImage = () => {
       {/* 使用一般 img標籤 */}
       {/* <img src="/images/samoyed.jpg" alt="" /> */}
       {/* 使用next的Image標籤 */}
-      <Image src={Samoyed} alt="" />
+      {/* <Image src={Samoyed} alt="" /> */}
       {/* 使用Image搭配sizes prop */}
-      <Image src={Samoyed} alt="" sizes="100vw" />
+      {/* <Image src={Samoyed} alt="" sizes="100vw" /> */}
     </>
   );
 };

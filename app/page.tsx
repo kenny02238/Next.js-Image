@@ -1,10 +1,14 @@
 import ImgVsImage from "@/app/component/imgVsImage/ImgVsImage";
-
+import StaticImage from "./component/staticImage/StaticImage";
+import ResponsiveFillImage from "./component/responsive-fill-image/ResponsiveFillImage";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between">
       {/* Next.js-Image component（一） */}
-      <ImgVsImage />
+      {/* <ImgVsImage /> */}
+      {/* Next.js-Image component（二） */}
+      {/* <StaticImage /> */}
+      <ResponsiveFillImage />
     </main>
   );
 }
